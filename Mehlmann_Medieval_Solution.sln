@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mehlmann_Medieval_Component", "Mehlmann_Medieval_Component\Mehlmann_Medieval_Component.csproj", "{FE58B448-5E3C-42D3-A089-3117184AC791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mehlmann_Medieval_Editor", "Mehlmann_Medieval_Editor\Mehlmann_Medieval_Editor.csproj", "{178C6252-9C26-42C0-AF87-64036E590A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mehlmann_Medieval_Game", "Mehlmann_Medieval_Game\Mehlmann_Medieval_Game.csproj", "{34AFFC2F-648F-413E-8DC9-953EFAC98508}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE58B448-5E3C-42D3-A089-3117184AC791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE58B448-5E3C-42D3-A089-3117184AC791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE58B448-5E3C-42D3-A089-3117184AC791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE58B448-5E3C-42D3-A089-3117184AC791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178C6252-9C26-42C0-AF87-64036E590A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178C6252-9C26-42C0-AF87-64036E590A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178C6252-9C26-42C0-AF87-64036E590A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178C6252-9C26-42C0-AF87-64036E590A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AFFC2F-648F-413E-8DC9-953EFAC98508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AFFC2F-648F-413E-8DC9-953EFAC98508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AFFC2F-648F-413E-8DC9-953EFAC98508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AFFC2F-648F-413E-8DC9-953EFAC98508}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
