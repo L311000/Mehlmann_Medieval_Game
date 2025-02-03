@@ -10,20 +10,26 @@ using System.Windows.Documents;
 
 namespace Mehlmann_Medieval_Component.Characters
 {
-    public class Character : Component_Base
+    public class Character
     {
         public CharacterGender Gender { get; set; }
         public Localisation FirstName { get; set; }
         public List<Localisation> MiddleNames { get; set; }
         public Family Family { get; set; }
-        public CharacterStatus Status { get; set; }
+        public Character_SocialClass SocialClass { get; set; }
         public Character Father { get; set; }
         public Character Mother { get; set; }
         public List<Character> Children { get; set; }
         public long Wealth { get; set; }
+        public long Piety { get; set; }
+        public long Prestige { get; set; }
         public DateOnly DateBirth { get; set; }
         public int Age { get; set; }
         public DateOnly DateDeath { get; set; }
-
+        public bool IsAlive {  get; set; }
+        public bool IsAI { get; set; } = true;
+        public bool IsMissing { get; set; }
+        public int Fertility { get; set; }
+        public Culture Culture { get; set; }
     }
 }

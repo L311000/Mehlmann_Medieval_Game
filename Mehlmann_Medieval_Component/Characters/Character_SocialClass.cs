@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mehlmann_Medieval_Component
+namespace Mehlmann_Medieval_Component.Characters
 {
-    public abstract class Component_Base
+    public class Character_SocialClass
     {
-        public long ID {  get; set; }
-        public Localisation Name { get; set; } = null;
+        public Localisation Name { get; set; }
+        public int Level { get; set; }
     }
 }

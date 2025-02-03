@@ -9,7 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="IO\" />
+    <Compile Remove="IO\**" />
+    <EmbeddedResource Remove="IO\**" />
+    <None Remove="IO\**" />
+    <Page Remove="IO\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Modifiers\" />
+    <Folder Include="Titles\" />
     <Folder Include="Units\" />
   </ItemGroup>
 
