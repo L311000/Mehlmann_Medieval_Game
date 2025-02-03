@@ -1,0 +1,29 @@
+﻿using Mehlmann_Medieval_Component;
+using Mehlmann_Medieval_Component.Localisations;
+using Mehlmann_Medieval_Component.Misc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Documents;
+
+namespace Mehlmann_Medieval_Component.Characters
+{
+    public class Character : Component_Base
+    {
+        public CharacterGender Gender { get; set; }
+        public Localisation FirstName { get; set; }
+        public List<Localisation> MiddleNames { get; set; }
+        public Family Family { get; set; }
+        public CharacterStatus Status { get; set; }
+        public Character Father { get; set; }
+        public Character Mother { get; set; }
+        public List<Character> Children { get; set; }
+        public long Wealth { get; set; }
+        public DateOnly DateBirth { get; set; }
+        public int Age { get; set; }
+        public DateOnly DateDeath { get; set; }
+
+    }
+}
