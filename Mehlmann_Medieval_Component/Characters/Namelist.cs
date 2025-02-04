@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace Mehlmann_Medieval_Component.Characters
 {
-    public class Namelist
+    public class Namelist : ComponentBase
     {
-        public Localisation Name {  get; set; }
-        public List<Localisation> FirstNamesMale { get; set; } = new List<Localisation>();
-        public List<Localisation> FirstNamesFemale { get; set; } = new List<Localisation>();
+        public string Name {  get; set; }
+        public List<string> FirstNamesMale { get; set; } = new List<string>();
+        public List<string> FirstNamesFemale { get; set; } = new List<string>();
 
-        public List<Localisation> MiddleNamesMale { get; set; } = new List<Localisation>();
-        public List<Localisation> MiddleNamesFemale { get; set; } = new List<Localisation>();
+        public List<string> MiddleNamesMale { get; set; } = new List<string>();
+        public List<string> MiddleNamesFemale { get; set; } = new List<string>();
 
-        public List<Localisation> FamilyNames { get; set; } = new List<Localisation>();
+        public List<string> FamilyNames { get; set; } = new List<string>();
 
     }
 }

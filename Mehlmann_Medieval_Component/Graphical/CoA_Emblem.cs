@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mehlmann_Medieval_Component.Graphical
 {
-    public class CoA_Emblem
+    public class CoA_Emblem : ComponentBase
     {
         public CoA_Color Color1 { get; set; }
         public CoA_Color Color2 { get; set; }

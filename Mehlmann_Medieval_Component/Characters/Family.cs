@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace Mehlmann_Medieval_Component.Characters
 {
-    public class Family
+    public class Family : ComponentBase
     {
-        public Localisation Name {  get; set; }
-        public Localisation Prefix { get; set; }
+        public string Name {  get; set; }
+        public string Prefix { get; set; }
         public Family_Status Status { get; set; }
         public List<Character> Members { get; set; }
         public List<Family> CadetFamilies { get; set; }

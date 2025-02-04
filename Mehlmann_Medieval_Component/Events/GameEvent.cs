@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Mehlmann_Medieval_Component.Events
 {
-    public class GameEvent
+    public class GameEvent : ComponentBase
     {
         public string Name { get; set; }
-        public Localisation Title { get; set; }
-        public Localisation Text { get; set; }
+        public string Title { get; set; }
+        public string Text { get; set; }
     }
 }

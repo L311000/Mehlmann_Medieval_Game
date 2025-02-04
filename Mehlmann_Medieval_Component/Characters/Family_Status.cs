@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Mehlmann_Medieval_Component.Characters
 {
-    public class Family_Status
+    public class Family_Status : ComponentBase
     {
-        public Localisation Name { get; set; }
+        public string Name { get; set; }
         public long RequiredRenown {  get; set; }
         public int Level { get; set; }
     }

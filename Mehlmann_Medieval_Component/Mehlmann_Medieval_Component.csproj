@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="Modifiers\" />
+    <Folder Include="Control_Systems\" />
     <Folder Include="Titles\" />
     <Folder Include="Units\" />
   </ItemGroup>

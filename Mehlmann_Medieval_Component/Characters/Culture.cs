@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Mehlmann_Medieval_Component.Characters
 {
-    public class Culture
+    public class Culture : ComponentBase
     {
         public Namelist Names { get; set; }
         public bool UsesMiddleNames { get; set; }

@@ -10,10 +10,10 @@ using System.Windows.Documents;
 
 namespace Mehlmann_Medieval_Component.Characters
 {
-    public class Character
+    public class Character : ComponentBase
     {
         public CharacterGender Gender { get; set; }
-        public Localisation FirstName { get; set; }
+        public string FirstName { get; set; }
         public List<Localisation> MiddleNames { get; set; }
         public Family Family { get; set; }
         public Character_SocialClass SocialClass { get; set; }
