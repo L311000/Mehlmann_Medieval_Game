@@ -9,7 +9,6 @@ namespace Mehlmann_Medieval_Component.Events
 {
     public class GameEvent : ComponentBase
     {
-        public string Name { get; set; }
         public string Title { get; set; }
         public string Text { get; set; }
     }

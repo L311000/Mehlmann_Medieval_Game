@@ -12,5 +12,6 @@ namespace Mehlmann_Medieval_Component.Graphical
         public string Background { get; set; }
         public CoA_Color Color1 { get; set; }
         public CoA_Color Color2 { get; set; }
+        public CoA Customised {  get; set; }
     }
 }

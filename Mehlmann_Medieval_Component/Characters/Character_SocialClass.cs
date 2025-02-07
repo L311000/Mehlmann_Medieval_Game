@@ -9,7 +9,7 @@ namespace Mehlmann_Medieval_Component.Characters
 {
     public class Character_SocialClass : ComponentBase
     {
-        public string Name { get; set; }
+        public string DisplayedName { get; set; }
         public int Level { get; set; }
     }
 }

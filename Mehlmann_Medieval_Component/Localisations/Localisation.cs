@@ -11,6 +11,7 @@ namespace Mehlmann_Medieval_Component.Localisations
         public string Name { get; set; }
         public int Priority { get; set; }
         public string Text { get; set; }
+        public bool IsCustom { get; set; }
 
         public string CreateExportText()
         {

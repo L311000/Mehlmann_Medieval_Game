@@ -22,6 +22,16 @@ namespace Mehlmann_Medieval_Component.Misc
         Male, Female
     }
 
+    public enum CharacterSexualOrientation
+    {
+        Heterosexual, Homosexual, Non_Sexual
+    }
+
+    public enum ConditionOperator
+    {
+        Smaller, Bigger, Equal, Not_Equal, Smaller_OR_Equal, Bigger_OR_Equal
+    }
+
     public static class EnumExtensions
     {
         public static LanguageTAG ToTag(this Language l)

@@ -9,7 +9,7 @@ namespace Mehlmann_Medieval_Component.Characters
 {
     public class Family_Status : ComponentBase
     {
-        public string Name { get; set; }
+        public string DisplayedName { get; set; }
         public long RequiredRenown {  get; set; }
         public int Level { get; set; }
     }

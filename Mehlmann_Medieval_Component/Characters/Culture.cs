@@ -15,6 +15,7 @@ namespace Mehlmann_Medieval_Component.Characters
         public int MinAmountMiddleNames { get; set; } = 0;
         public int Father_Name_Chance { get; set; }
         public int Mother_Name_Chance { get; set; }
+        public int Middle_Name_Chance { get; set; }
 
         public Random RND { get; set; } = new();
     }

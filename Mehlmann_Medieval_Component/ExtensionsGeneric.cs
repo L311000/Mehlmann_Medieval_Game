@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mehlmann_Medieval_Component.Misc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -54,6 +55,36 @@ namespace Mehlmann_Medieval_Component
             {
                 return "";
             }
+        }
+
+        public static bool Compare<T>(this ConditionOperator o, T left, T right) where T : IComparable<T>
+        {
+            bool result = false;
+            if (o == ConditionOperator.Smaller)
+            {
+                return left.CompareTo(right) < 0;
+            }
+            else if (o == ConditionOperator.Smaller_OR_Equal)
+            {
+                return left.CompareTo(right) <= 0;
+            }
+            else if (o == ConditionOperator.Equal)
+            {
+                return left.CompareTo(right) == 0;
+            }
+            else if (o == ConditionOperator.Bigger)
+            {
+                return left.CompareTo(right) > 0;
+            }
+            else if (o == ConditionOperator.Bigger_OR_Equal)
+            {
+                return left.CompareTo(right) >= 0;
+            }
+            else if (o == ConditionOperator.Not_Equal)
+            {
+                return left.CompareTo(right) != 0;
+            }
+            return result;
         }
     }
 }

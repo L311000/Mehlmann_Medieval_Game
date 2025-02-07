@@ -11,8 +11,8 @@ namespace Mehlmann_Medieval_Component.Characters
 {
     public class Family : ComponentBase
     {
-        public string Name {  get; set; }
-        public string Prefix { get; set; }
+        public Localisation DisplayedName {  get; set; }
+        public Localisation Prefix { get; set; }
         public Family_Status Status { get; set; }
         public List<Character> Members { get; set; }
         public List<Family> CadetFamilies { get; set; }

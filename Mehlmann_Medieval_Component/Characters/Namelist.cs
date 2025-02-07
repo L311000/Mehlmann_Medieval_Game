@@ -10,14 +10,14 @@ namespace Mehlmann_Medieval_Component.Characters
 {
     public class Namelist : ComponentBase
     {
-        public string Name {  get; set; }
-        public List<string> FirstNamesMale { get; set; } = new List<string>();
-        public List<string> FirstNamesFemale { get; set; } = new List<string>();
+        public Localisation DisplayedName {  get; set; }
+        public List<Localisation> FirstNamesMale { get; set; } = [];
+        public List<Localisation> FirstNamesFemale { get; set; } = [];
 
-        public List<string> MiddleNamesMale { get; set; } = new List<string>();
-        public List<string> MiddleNamesFemale { get; set; } = new List<string>();
+        public List<Localisation> MiddleNamesMale { get; set; } = [];
+        public List<Localisation> MiddleNamesFemale { get; set; } = [];
 
-        public List<string> FamilyNames { get; set; } = new List<string>();
+        public List<Localisation> FamilyNames { get; set; } = [];
 
     }
 }
